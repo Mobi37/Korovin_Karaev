@@ -27,7 +27,7 @@
             $a = $post->find('.b-preparation-name', 0);
             $div = $post->find('.b-preparation-resume__count', 0);
             echo $a . " - ";
-            echo $div . "; ";
+            echo $div . ";WOW; ";
              
         }
     }
