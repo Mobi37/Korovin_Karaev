@@ -18,7 +18,6 @@
     }
 
     urlGet($page1 = curlGetPage('https://drugchoice.vrachirf.ru/almagel-r'));
-    urlGet($page1 = curlGetPage('https://drugchoice.vrachirf.ru/bronho-munal-r'));
     urlGet($page1 = curlGetPage('https://drugchoice.vrachirf.ru/konkor-r'));
 
     function urlGet($urlMed){
@@ -27,7 +26,8 @@
             $a = $post->find('.b-preparation-name', 0);
             $div = $post->find('.b-preparation-resume__count', 0);
             echo $a . " - ";
-            echo $div . ";WOW; ";
+            echo $div . ";ah; ";
              
         }
     }
+    echo "yes";
