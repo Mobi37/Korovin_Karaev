@@ -30,4 +30,4 @@
              
         }
     }
-    echo "EZ";
+    echo "EZ 1";
